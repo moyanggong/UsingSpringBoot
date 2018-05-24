@@ -11,8 +11,8 @@ import org.springframework.stereotype.Service;
 public class MqReceiver {
 
     @RabbitListener(queues = QueueConfig.QUEUE1)
-    public void receive(String message){
-        System.out.println("从qu1队列收到消息为"+message);
+    public void receive(String message) {
+        System.out.println("从qu1队列收到消息为" + message);
     }
 
 }

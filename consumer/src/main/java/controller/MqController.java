@@ -22,15 +22,11 @@ public class MqController {
     private MqService mqService;
 
 
-    @RequestMapping(value = "/send",method = RequestMethod.GET)
+    @RequestMapping(value = "/send", method = RequestMethod.GET)
     public void sayHello() {
 
-         mqService.send("123321");
+        mqService.send("123321");
     }
-
-
-
-
 
 
 }

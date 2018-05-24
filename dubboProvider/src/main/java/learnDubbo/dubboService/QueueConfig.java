@@ -15,15 +15,14 @@ public class QueueConfig {
     public static final String QUEUE2 = "qu2";
 
 
-
     @Bean
-    public Queue queue1(){
-        return new Queue(QUEUE1,true);
+    public Queue queue1() {
+        return new Queue(QUEUE1, true);
     }
 
     @Bean
-    public Queue queue2(){
-        return new Queue(QUEUE2,true);
+    public Queue queue2() {
+        return new Queue(QUEUE2, true);
     }
 
 }

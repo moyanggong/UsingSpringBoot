@@ -11,12 +11,11 @@ import org.springframework.stereotype.Service;
 
 //@Service
 public class MQSender implements MqService {
-    
-    
-    
+
+
     @Override
     public void send(String message) {
-        
+
     }
 
 //    @Autowired

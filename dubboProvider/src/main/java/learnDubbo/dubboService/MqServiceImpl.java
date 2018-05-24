@@ -29,7 +29,7 @@ public class MqServiceImpl implements MqService {
     public void send(String message) {
         try {
             amqpTemplate.convertAndSend(QueueConfig.QUEUE1, message);
-        }catch (AmqpException e){
+        } catch (AmqpException e) {
             System.out.println(e.getStackTrace());
         }
 

@@ -5,6 +5,7 @@ package learnDubbo.serializer;
  */
 public interface SerializeUtil {
     byte[] Object2byte(Object obj) throws Exception;
+
     Object byte2object(byte[] b) throws Exception;
 
 }

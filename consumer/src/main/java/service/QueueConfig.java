@@ -16,13 +16,13 @@ public class QueueConfig {
 //    HashSet
 
     @Bean
-    public Queue queue1(){
-        return new Queue(QUEUE1,true);
+    public Queue queue1() {
+        return new Queue(QUEUE1, true);
     }
 
     @Bean
-    public Queue queue2(){
-        return new Queue(QUEUE2,true);
+    public Queue queue2() {
+        return new Queue(QUEUE2, true);
     }
 
 }
